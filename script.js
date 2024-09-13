@@ -19,5 +19,11 @@ function saveNotes() {
 }
 
 function getNotes() {
-    
+    const notesString = localStorage.getItem("notes");
+    if (notesString == null) {
+        console.log("notesString null");
+        
+    } else {
+        notesArrey = JSON.parse(notesString);
+    }
 }
