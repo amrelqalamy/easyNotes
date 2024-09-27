@@ -61,7 +61,7 @@ h1 i {
 }
 
 #centerDiv {
-    min-height: 77vh;
+    min-height: 72vh;
     position: absolute;
     top: 13vh;
     right: 0;
@@ -105,6 +105,11 @@ textarea {
     background-color: #DDDFF5;
     border-bottom: 2px solid #4855CD;
 }
+#notesDiv {
+    bottom: 25vh;
+    background-color: red;
+}
+
 
 #notesDiv div p {
     font-size: 25px;

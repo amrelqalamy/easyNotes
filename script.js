@@ -53,7 +53,7 @@ for (let index = 0; index < notesArrey.length; index++) {
     newParagraph.innerText = element;
     newDiv.appendChild(newParagraph);
     
-    const deletIcon = document.getElementById("i");
+    const deletIcon = document.createElement("i");
     deletIcon.className = "bi bi-trash3";
     deletIcon.onclick = function () {
         
